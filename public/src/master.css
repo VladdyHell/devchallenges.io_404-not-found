@@ -77,16 +77,24 @@ body {
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
     font-weight: 700;
+    cursor: pointer;
+    transition: 10ms;
 }
 
+
+.right-col button:hover {
+    background: #4F4F4F;
+}
 footer {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 24px 44px;
     box-sizing: border-box;
     color: #BDBDBD;
 }
+
+@media (max-width: 373px){footer {padding: 24px;}}
 
 footer span {
     text-decoration: underline;
