@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap");
 :root {
     overflow-x: hidden;
     margin: 0;
@@ -7,9 +7,15 @@
 body {
     overflow-x: hidden;
     margin: 0;
-    padding 0;
+    padding: 0;
     color: #333333;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
+    /* background: lightcoral;
+    min-height: 100vh; */
+}
+
+.content {
+    min-height: 100vh;
 }
 
 .top-container {
@@ -19,9 +25,9 @@ body {
 }
 
 .top-container h2 {
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", monospace;
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -2px;
@@ -48,53 +54,70 @@ body {
 
 .left-col img {
     width: 288px;
+    margin-bottom: -40px;
 }
 
 .right-col {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    height: 488px;
 }
 
 .right-col h1 {
-    font-size: 44px;
+    font-size: 48px;
     font-weight: 700;
-    margin-top: 0;
-    line-height: 1.64;
+    margin: 0;
+    padding: 0;
+    line-height: 1.56;
+    word-spacing: -4px;
+    margin-bottom: -12px;
+
+    /* margin: 0;
+    padding: 0; */
 }
 
 .right-col p {
-    color: #4F4F4F;
+    color: #4f4f4f;
     font-size: 16.5px;
+
+    /* font-size: 24px; */
+    /* width: 396px; */
+    /* padding-top: ; */
+    margin: 0;
+    padding: 0;
 }
 
 .right-col button {
-    margin: 56px 0 128px;
+    /* margin: 56px 0 128px; */
     width: 208px;
     height: 64px;
     background: #333333;
-    color: #FFF;
-    font-family: 'Space Mono', monospace;
+    color: #fff;
+    font-family: "Space Mono", monospace;
     text-transform: uppercase;
     font-weight: 700;
     cursor: pointer;
-    transition: 10ms;
+    transition: 20ms;
+
+    margin: 16px 0 64px;
+    width: 224px;
+    height: 72px;
 }
 
-
 .right-col button:hover {
-    background: #4F4F4F;
+    background: #4f4f4f;
 }
 footer {
     display: block;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    padding: 24px 44px;
+    font-family: "Montserrat", sans-serif;
+    padding: 24px 32px;
     box-sizing: border-box;
-    color: #BDBDBD;
+    color: #bdbdbd;
 }
 
-@media (max-width: 373px){footer {padding: 24px;}}
+/* @media (max-width: 373px){footer {padding: 24px;}} */
 
 footer span {
     text-decoration: underline;
@@ -102,30 +125,45 @@ footer span {
 
 /* LAPTOP AND DESKTOP MEDIA QUERY */
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .top-container {
         padding-top: 32px;
         padding-left: 64px;
     }
+    .top-container h2 {
+        font-size: 24px;
+        word-spacing: 4px;
+    }
     .mid-container {
         flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
-        padding: 128px 64px 256px;
+        align-items: center;
+        padding: /*168px*/ 32px 64px /*256px*/ 32px;
     }
     .left-col {
         width: auto;
-        justify-content: flex-center;
+        justify-content: flex-start;
         align-items: flex-start;
         padding: 24px 128px 24px 0;
     }
     .left-col img {
-        width: 400px;
+        width: 536px;
+        margin-bottom: 0;
+    }
+    .right-col {
+    }
+    .right-col h1 {
+        font-size: 64px;
+        /* padding-top: 32px; */
     }
     .right-col p {
-        width: 256px;
+        font-size: 24px;
+        width: 396px;
+        /* padding-top: ; */
     }
     .right-col button {
         margin: 56px 0 0;
+        width: 224px;
+        height: 72px;
     }
 }
