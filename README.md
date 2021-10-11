@@ -1,8 +1,6 @@
-# devchallenges.io_404-not-found
-
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404 Not Found Challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -38,18 +36,15 @@
 
 ## Overview
 
-<h2>Mobile View</h2>
-![screenshot](https://gcdn.pbrd.co/images/KsBjdf4UazHU.png?o=1)
+<h3>Mobile View</h3>
+![screenshot](https://user-images.githubusercontent.com/89136386/136751781-66f1b321-e948-48b6-8cff-45736d93715e.png)
 
-<h2>Laptop View:</h2>
-![screenshot](https://gcdn.pbrd.co/images/Gw63swKvrNHp.png?o=1)
+<h3>Laptop View:</h3>
+![screenshot](https://user-images.githubusercontent.com/89136386/136751774-497b2b24-c82c-4464-a9ae-d686518664f9.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+<h4>Click on the "Demo" link above to see the output</h4>
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+This is simply made with HTML and CSS. One thing I learned while building this project, is the whitespaces, I came across a blog post about binary numbers for spacings while doing this project, by using these numbers I can produce a better appearance on the website.
 
 ### Built With
 
@@ -73,4 +68,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/VladdyHell})
+- GitHub [@VladdyHell](https://github.com/VladdyHell)
