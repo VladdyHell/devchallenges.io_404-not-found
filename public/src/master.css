@@ -1,25 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
 :root {
+    overflow-x: hidden;
     margin: 0;
 }
 
 body {
+    overflow-x: hidden;
     margin: 0;
+    padding 0;
+    color: #333333;
+    font-family: 'Space Mono', monospace;
 }
 
-.top {
+.top-container {
     padding-top: 20px;
     padding-left: 24px;
+    box-sizing: border-box;
 }
 
-.top h2 {
+.top-container h2 {
+    font-family: 'Inconsolata', monospace;
     margin: 0;
-    font-family: 'Allerta', sans-serif;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: -4px;
+    letter-spacing: -2px;
     word-spacing: 8px;
-    color: #5A5A5A;
 }
 
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.left-col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0;
+    box-sizing: border-box;
+}
+
+.left-col img {
+    width: 288px;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-col h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.64;
+}
+
+.right-col p {
+    color: #4F4F4F;
+    font-size: 16.5px;
+}
+
+.right-col button {
+    margin: 56px 0 128px;
+    width: 208px;
+    height: 64px;
+    background: #333333;
+    color: #FFF;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px 44px;
+    box-sizing: border-box;
+    color: #BDBDBD;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
+/* LAPTOP AND DESKTOP MEDIA QUERY */
+
+@media (min-width: 992px) {
+    .top-container {
+        padding-top: 32px;
+        padding-left: 64px;
+    }
+    .mid-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 128px 64px 256px;
+    }
+    .left-col {
+        width: auto;
+        justify-content: flex-center;
+        align-items: flex-start;
+        padding: 24px 128px 24px 0;
+    }
+    .left-col img {
+        width: 400px;
+    }
+    .right-col p {
+        width: 256px;
+    }
+    .right-col button {
+        margin: 56px 0 0;
+    }
+}
