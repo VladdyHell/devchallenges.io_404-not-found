@@ -36,10 +36,7 @@
 
 ## Overview
 
-<h3>Mobile View</h3>
 ![screenshot](https://user-images.githubusercontent.com/89136386/136751781-66f1b321-e948-48b6-8cff-45736d93715e.png)
-
-<h3>Laptop View:</h3>
 ![screenshot](https://user-images.githubusercontent.com/89136386/136751774-497b2b24-c82c-4464-a9ae-d686518664f9.png)
 
 <h4>Click on the "Demo" link above to see the output</h4>
@@ -55,7 +52,7 @@ This is simply made with HTML and CSS. One thing I learned while building this p
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
